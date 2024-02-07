@@ -1,0 +1,16 @@
+{
+    "project_name": "example_project_name",
+    "input_filtered_count_filepath": "/krummellab/data1/alaa/data/hiv/rutishauser/huati/preprocessed_data/rutishauser_ATI_gi_RR3692_01/outs/per_sample_outs/rutishauser_ATI_gi_RR3692_01/count/sample_filtered_feature_bc_matrix",
+    "input_raw_count_filepath": "/krummellab/data1/alaa/data/hiv/rutishauser/huati/preprocessed_data/rutishauser_ATI_gi_RR3692_01/outs/multi/count/raw_feature_bc_matrix",
+    "input_analysis_cluster_filepath": "/krummellab/data1/alaa/data/hiv/rutishauser/huati/preprocessed_data/rutishauser_ATI_gi_RR3692_01/outs/per_sample_outs/rutishauser_ATI_gi_RR3692_01/count/analysis/clustering/gene_expression_graphclust/clusters.csv",
+    "feature_selection_threshold": 2000,
+    "normalization_scale_factor": 10000,
+    "feature_qc_threshold": 800,
+    "rna_qc_threshold": 1500,
+    "pct_mitochondrial_expression_qc_threshold": 25,
+    "num_cores": 24,
+    "cluster_resolution": 0.5,
+    "output_qc_plot_filepath": "example_qc_plot.png",
+    "output_seurat_object_filepath": "example_seurat_object.rds"
+
+}
